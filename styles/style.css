@@ -19,29 +19,15 @@
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 
 .logo_place_header {
     /* background-image: url(..images/logo_place_header.svg); */
-  position: absolute; 
+  position: absolute;
   top: 30px;
   left: 64px;
   width: 228px;
   height: 32px;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 
 .header__title-text {
   display: flex;
@@ -394,13 +380,11 @@
 }
 
 .footer__column_content_info {
-  border: 5px solid yellow;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column-heading {
-  border: 1px solid red;
   color: white;
   margin-bottom: 20px;
   line-height: 30px;
@@ -409,7 +393,9 @@
 }
 
 .footer__column-links {
-  border: 1px solid red;
+  color: #2f80ed;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .footer__column-link {
@@ -420,12 +406,4 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_social {
-  border: 1px solid red;
-
-  border: 1px solid white;
-  flex-direction: column;
-
 }
