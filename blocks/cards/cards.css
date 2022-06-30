@@ -1,0 +1,13 @@
+.cards {
+    /* border: 10px solid blue; */
+    max-width: 920px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.cards::after {
+    /* border: 1px solid red; */
+    content: "";
+    width: 240px;
+}
