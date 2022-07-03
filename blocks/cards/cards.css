@@ -3,5 +3,4 @@
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    border: 1px solid red;
 }
