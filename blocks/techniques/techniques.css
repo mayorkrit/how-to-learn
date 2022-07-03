@@ -1,9 +1,10 @@
 .techniques {
-    /* border: 1px solid red; */
-    margin: 100px auto 0 auto;
+    padding: 100px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     max-width: 80%;
+    margin: 0 auto;
+    align-self: center;
 }
